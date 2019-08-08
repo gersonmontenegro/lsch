@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-filename-extension */
 /* eslint-disable global-require */
 import React, { useState, useCallback } from 'react';
 import {
@@ -92,6 +93,16 @@ const initialImgArray = {
         id: 4,
         url: require('assets/almuerzo.jpg'),
         name: 'almorzar',
+    },
+    amor: {
+        id: 4,
+        url: require('assets/amor.jpg'),
+        name: 'amor',
+    },
+    amo: {
+        id: 4,
+        url: require('assets/amor.jpg'),
+        name: 'amo',
     },
 };
 
