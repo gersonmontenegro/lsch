@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-filename-extension */
 /* eslint-disable no-unused-expressions */
 /**
  * Sample React Native App
@@ -8,16 +9,12 @@
  */
 
 import React, { Fragment } from 'react';
-import { StatusBar, SafeAreaView } from 'react-native';
-import Main from './features/main';
+import Navigation from './navigation';
 
 const App = () => {
     return (
         <Fragment>
-            <StatusBar barStyle="dark-content" />
-            <SafeAreaView>
-                <Main />
-            </SafeAreaView>
+            <Navigation />
         </Fragment>
     );
 };
